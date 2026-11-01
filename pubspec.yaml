@@ -1,0 +1,16 @@
+name: mtka_bite_alarm
+description: Application de détection de touche MTKA Fishing
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.30.0
+  cupertino_icons: ^1.0.6
+
+flutter:
+  uses-material-design: true

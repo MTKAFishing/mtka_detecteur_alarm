@@ -25,6 +25,9 @@ jobs:
       - name: Generate Android Boilerplate
         run: flutter create . --platforms=android
 
+      - name: Create local.properties
+        run: echo "flutter.sdk=$FLUTTER_ROOT" > android/local.properties
+
       - name: Install Dependencies
         run: flutter pub get
 
